@@ -1,0 +1,19 @@
+{
+  "name": "scrapes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js --ignore data.json"
+  },
+  "author": "Sridatta <dattacrew19@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
