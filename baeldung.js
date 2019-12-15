@@ -12,7 +12,7 @@ var fs = require("fs");
 
 export const getData = async () => {
   let data = [];
-  for (let week = 294; week >= 280; week--) {
+  for (let week = 294; week >= 290; week--) {
     console.log("INITIATING SCRAPING FOR WEEK ", week);
     const html = await getHTML(`https://www.baeldung.com/java-weekly-${week}`);
     const $ = cheerio.load(html);
