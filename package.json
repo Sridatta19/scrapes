@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -r esm index.js --ignore data.json"
+    "start": "nodemon -r esm index.js --ignore data.json --ignore result.json"
   },
   "author": "Sridatta <dattacrew19@gmail.com>",
   "license": "MIT",
